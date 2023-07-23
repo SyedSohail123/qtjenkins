@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('VCS') {
             steps {
-                git url: 'https://github.com/SyedSohail123/july23-jenkins.git',
+                git url: 'https://github.com/SyedSohail123/qtjenkins.git',
                     branch: 'declarative'
             }
         }
